@@ -89,8 +89,6 @@ Eclipse的用户(赶紧换AS吧)，可以选择添加本项目根目录中 `/jar
 
 如果你使用遇到了问题，首先请看控制台log，如果log无法看出问题，无法确定是该库的bug还是服务端的问题，建议抓包查看网络数据，[详细的抓包方法猛戳这里](https://github.com/jeasonlzy/okhttp-OkGo/wiki#网络抓包)
 
-### 如果你觉得好，对你有过帮助，请给我一点打赏鼓励吧，一分也是爱呀！
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fgidan2gc9j30jg0a2wg6.jpg)
 
 ## 混淆
 okgo, okrx, okrx2, okserver 所有代码均可以混淆,但是由于底层使用的是 okhttp,它不能混淆,所以只需要添加以下混淆代码就可以了
