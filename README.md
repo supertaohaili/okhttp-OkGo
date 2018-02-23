@@ -1,5 +1,8 @@
 ![](http://7xss53.com1.z0.glb.clouddn.com/markdown/aqyyw.jpg)
 
+## 为适配公司项目进行的修改
+
+
 ## OkGo - 3.0 震撼来袭, 一个基于okhttp的标准RESTful风格的网络框架
 
 > 工程结构全新优化  
@@ -25,24 +28,8 @@
 > 类似QQ空间，微信朋友圈，微博主页等，展示图片的九宫格控件，自动根据图片的数量确定图片大小和控件大小，使用Adapter模式设置图片，对外提供接口回调，使用接口加载图片，支持任意的图片加载框架如：Glide、ImageLoader、xUtils3、Picasso 等，支持点击图片全屏预览大图。  
 附上地址：[https://github.com/jeasonlzy/NineGridView](https://github.com/jeasonlzy/NineGridView)
 
-## 联系方式
- * email： liaojeason@126.com
- * QQ群： 489873144 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=ba5dbb5115a165866ec77d96cb46685d1ad159ab765b796699d6763011ffe151"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Android 格调小窝" title="Android 格调小窝"></a>（点击图标，可以直接加入，建议使用QQ群，邮箱使用较少，可能看的不及时）
- * 如果遇到问题欢迎在群里提问，个人能力也有限，希望一起学习一起进步。
-
 ## 演示
 ![image](https://github.com/jeasonlzy/Screenshots/blob/master/okgo/demo13.gif)![image](https://github.com/jeasonlzy/Screenshots/blob/master/okgo/demo8.gif)![image](https://github.com/jeasonlzy/Screenshots/blob/master/okgo/demo11.gif)![image](https://github.com/jeasonlzy/Screenshots/blob/master/okgo/demo9.gif)![image](https://github.com/jeasonlzy/Screenshots/blob/master/okgo/demo10.gif)![image](https://github.com/jeasonlzy/Screenshots/blob/master/okgo/demo12.gif)
-
-## 未来版本
-### [v3.1.x]版本
-- 计划分离params参数的具体作用，分为paramsPath，paramsQuery和params，支持url路径动态替换
-- 计划支持请求优先级，方便有些重要请求优先进行
-- 计划支持自定义线程池，使用自己的线程池管理网络请求
-
-### [v3.2.x]版本
-- 计划增加扩展库OkAnno，作用是让okgo支持注解方式请求，具体写法与Retrofit相似，但是更简单方便，也更强大，方便Retrofit用户平滑过渡到OkGo
-
-### 其他功能暂时还没想出来，大家有想法的可以积极加群讨论，或者直接在issue里面提出你的想法，我会第一时间回复。
 
 ## 使用
 
@@ -136,21 +123,9 @@ okgo, okrx, okrx2, okserver 所有代码均可以混淆,但是由于底层使用
 -keep class com.lzy.okserver.**{*;}
 ```
 
-## Licenses
-```
- Copyright 2016 jeasonlzy(廖子尧)
-
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+### Known Issues
+If you have any questions/queries/Bugs/Hugs please mail @
+taohailili@gmail.com
 ```
 
 
