@@ -72,6 +72,7 @@ task makeApk {
     }
 }
 
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile "com.android.support:appcompat-v7:$supportVersion"
@@ -98,4 +99,7 @@ dependencies {
     compile 'com.lzy.widget:ninegridview:0.2.1'
     compile 'com.lzy.widget:imagepicker:0.3.2'
     compile 'com.lzy.widget:view-core:0.2.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    compile 'com.github.supertaohaili:Utils:1.0.0'
 }

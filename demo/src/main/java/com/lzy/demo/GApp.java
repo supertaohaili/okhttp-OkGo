@@ -53,8 +53,7 @@ public class GApp extends Application {
     public void onCreate() {
         super.onCreate();
 
-//        System.setProperty("http.proxyHost", "192.168.1.104");   //个人测试网络时用的，删掉即可
-//        System.setProperty("http.proxyPort", "8888");
+
 
         initOkGo();
     }

@@ -106,7 +106,7 @@ public class CookieActivity extends BaseDetailActivity {
         HttpUrl httpUrl = HttpUrl.parse(Urls.URL_METHOD);
         CookieStore cookieStore = OkGo.getInstance().getCookieJar().getCookieStore();
         cookieStore.removeCookie(httpUrl);
-
+//        cookieStore.removeAllCookie();
         showToast("详细移除cookie的代码，请看demo的代码");
     }
 
